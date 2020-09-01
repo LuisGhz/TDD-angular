@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "tdd-angular"
+    }
+  },
+  "defaultProject": "tdd-angular",
+  "cli": {
+    "analytics": "7fdc7e5e-87dc-4e3b-84f9-f9bd12889b11"
+  }
 }
