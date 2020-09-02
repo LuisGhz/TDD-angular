@@ -22,4 +22,17 @@ describe('HeaderComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should show log', () => {
+    expect(fixture.nativeElement.querySelector('[data-test="logo"]')).toBeTruthy();
+  });
+
+  it('should show search', () => {
+    expect(fixture.nativeElement.querySelector('[data-test="search"]')).toBeTruthy();
+  });
+
+  it('should show menu', () => {
+    expect(fixture.nativeElement.querySelector('[data-test="menu"]')).toBeTruthy();
+  });
+
 });
