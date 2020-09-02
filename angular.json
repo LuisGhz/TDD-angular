@@ -92,7 +92,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.scss"
             ],
             "scripts": []
           }
@@ -128,5 +128,10 @@
   "defaultProject": "tdd-angular",
   "cli": {
     "analytics": "7fdc7e5e-87dc-4e3b-84f9-f9bd12889b11"
+  },
+  "schematics": {
+    "@schematics/angular:component": {
+      "styleext": "scss"
+    }
   }
 }
