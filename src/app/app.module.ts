@@ -5,6 +5,8 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { HomesComponent } from './homes/homes.component';
 
+import { DataService } from './services/data.service';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -14,7 +16,7 @@ import { HomesComponent } from './homes/homes.component';
   imports: [
     BrowserModule
   ],
-  providers: [],
+  providers: [ DataService ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
